@@ -87,4 +87,39 @@
         width: 100%;
         background-color: #E99BE7;
     }
+    .details {
+        display: flex;
+        flex-direction: row;
+    }
+    .Social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 10%;
+        width: 60%;
+        margin-left: 5rem;
+    }
+    .Knowledge {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .Knowledge-title {
+        margin-left: 1rem;
+    }
+    .Icons {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        height: 90%;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .Icons>img {
+        margin-left: 1rem;
+        height: 6vh;
+        width: 6vh;
+    }
 }
