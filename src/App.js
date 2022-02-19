@@ -18,6 +18,8 @@ import Sketch from './assets/sketch.png'
 import Figma from './assets/figma.png'
 import Xd from './assets/xd.png'
 import Illustrator from './assets/illustrator.png'
+import GitHub from './assets/github.png'
+import Drive from './assets/google-drive.png'
 
 
 
@@ -65,6 +67,17 @@ function App() {
             <img src={Figma}/>
             <img src={Xd}/>
             <img src={Illustrator}/>
+            </div>
+          </div>
+          <div className='Last-div'>
+            <span className='Lastspan'>Do Check My Works :</span>
+            <div className='Work-div'>
+              <div className='Works'>
+             <a> <img className='Work-icons'  src={GitHub}/></a>
+              </div>
+              <div className='Works'>
+                <a><img className='Work-icons' src={Drive}/></a>
+              </div>
             </div>
           </div>
         </div>
