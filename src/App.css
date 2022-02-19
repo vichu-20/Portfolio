@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width:600px) {
+    .App {
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        background-image: url(./assets/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+    .Top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 10%;
+        width: 100%;
+    }
+    .Top>img {
+        height: 8vh;
+        width: 8vh;
+        margin-right: 1rem;
+    }
+    .Portfolio {
+        font-size: 30px;
+        margin-left: 1rem;
+        font-weight: 600;
+        background: #E99BE7;
+        background: -webkit-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+        background: -moz-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+        background: linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .Header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 15%;
+        width: 100%;
+    }
+    .Greeting {
+        font-size: 20px;
+        margin-left: 1rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+    .Name {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+    .Name-1 {
+        font-size: 40px;
+        font-weight: 500;
+        font-weight: 700;
+    }
+    .Name-2 {
+        font-size: 40px;
+        margin-left: 1rem;
+        font-weight: 700;
+    }
+    .Position {
+        margin-left: 1rem;
+        margin-left: 10rem;
+    }
+    .Main {
+        height: 80%;
+        width: 100%;
+    }
+    .Profile-pic {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 50%;
+    }
+    .Profile-pic>img {
+        margin-left: 5rem;
+        margin-bottom: 0.5rem;
+    }
+    .Details {
+        height: 50%;
+        width: 100%;
+        background-color: #E99BE7;
+    }
 }
