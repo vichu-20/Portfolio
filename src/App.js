@@ -53,36 +53,37 @@ function App() {
         </div>
         <div className='Details'>
           <div className='Social'>
-            <img src={Gmail}/>
-            <img src={Telegram}/>
-            <img src={Twitter}/>
-            <img src={Instagram}/>
-            <img src={Behance}/>
-            <img src={Linkedin}/>
+            <a href='https://gmail.com/athulvishnu4601@gmail.com' className='Icons-Social'><img src={Gmail}/></a>
+            <a  href='https://t.me/vichu20' className='Icons-Social'><img src={Telegram}/></a>
+            <a  href='https://twitter.com/athulvishnu4601' className='Icons-Social'><img src={Twitter}/></a>
+            <a href='https://instagram.com/_vichu_20' className='Icons-Social'><img src={Instagram}/></a>
+            <a href='https://www.behance.net/athulvichu' className='Icons-Social'><img src={Behance}/></a>
+            <a href='https://www.linkedin.com/in/athul-vishnu-k-v-763061209' className='Icons-Social'><img src={Linkedin}/></a>
           </div>
           <div className='Knowledge'>
             <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Knowledge-title'>Knowledge in:</span>
             <div className='Icons'>
-            <a className='Icons-social'><img src={Html}/></a>
-            <a className='Icons-social'><img src={Css}/></a>
-            <a className='Icons-social'><img src={Js}/></a>
-            <a className='Icons-social'><img src={React}/></a>
-            <a className='Icons-social'><img src={Linux}/></a>
-            <a className='Icons-social'><img src={Git}/></a>
-            <a className='Icons-social'><img src={Sketch}/></a>
-            <a className='Icons-social'><img src={Figma}/></a>
-            <a className='Icons-social'><img src={Xd}/></a>
-            <a className='Icons-social'><img src={Illustrator}/></a>
+            <img src={Html}/>
+            <img src={Css}/>
+            <img src={Js}/>
+            <img src={React}/>
+            <img src={Linux}/>
+            <img src={Git}/>
+            <img src={Sketch}/>
+            <img src={Figma}/>
+            <img src={Xd}/>
+            <img src={Illustrator}/>
             </div>
           </div>
           <div className='Last-div'>
             <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Lastspan'>Do Check My Works :</span>
             <div className='Work-div'>
               <div className='Works'>
-             <a href=''> <img className='Work-icons'  src={GitHub}/></a>
+             <a href='http://github.com/vichu-20'> <img className='Work-icons'  src={GitHub}/></a>
               </div>
               <div className='Works'>
-                <a><img className='Work-icons' src={Drive}/></a>
+                <a href='https://drive.google.com/drive/folders/1r72R2MSfaI9dMAiOg3Q18Ce2wG6r2yAL?usp=sharing'>
+                  <img className='Work-icons' src={Drive}/></a>
               </div>
             </div>
           </div>

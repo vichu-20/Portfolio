@@ -103,6 +103,10 @@
         width: 60%;
         margin-left: 5rem;
     }
+    .Icons-Social>img {
+        height: 4vh;
+        width: 4vh;
+    }
     .Knowledge {
         display: flex;
         flex-direction: column;
@@ -113,7 +117,8 @@
     }
     .Knowledge-title {
         margin-left: 1rem;
-        font-size: 25px;
+        margin-top: 1rem;
+        font-size: 20px;
     }
     .Icons {
         display: grid;
@@ -122,7 +127,7 @@
         width: 100%;
         margin-top: 1rem;
     }
-    .Icons-social>img {
+    .Icons>img {
         margin-left: 1rem;
         height: 6vh;
         width: 6vh;
@@ -137,6 +142,7 @@
     .Lastspan {
         font-size: 20px;
         margin-left: 1rem;
+        margin-top: 1rem;
     }
     .Work-div {
         display: flex;
