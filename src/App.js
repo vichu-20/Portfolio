@@ -49,7 +49,6 @@ function App() {
         ,backgroundRepeat:"no-repeat",backgroundSize:"contain",
        marginRight:20,marginTop:20 ,alignItems:"center",justifyContent:"center"}}
          className='Profile-pic'>
-          <img src={Photo}/>
         </div>
         <div className='Details'>
           <div className='Social'>
