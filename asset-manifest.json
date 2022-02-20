@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.12ea1ffd.css",
+    "main.js": "/Portfolio/static/js/main.5d249918.js",
+    "static/media/photo.png": "/Portfolio/static/media/photo.36663e3481eaf29484e3.png",
+    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.3788165f2c8bf84c637c.png",
+    "static/media/background.png": "/Portfolio/static/media/background.ea5aa1c6f631ba411443.png",
+    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f26453301b9a671b7895.png",
+    "static/media/linux.png": "/Portfolio/static/media/linux.3db32b955e9b61f35998.png",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/structure.png": "/Portfolio/static/media/structure.4127b36258b5e9dc8f88.png",
+    "static/media/git.png": "/Portfolio/static/media/git.bad2b1118eff814bb319.png",
+    "static/media/twitter.png": "/Portfolio/static/media/twitter.570a83358b62aadac17a.png",
+    "static/media/telegram.png": "/Portfolio/static/media/telegram.04c3d4028b28944f72b9.png",
+    "static/media/behance.png": "/Portfolio/static/media/behance.74ca15d89ebad5eb94ad.png",
+    "static/media/html-5.png": "/Portfolio/static/media/html-5.a92a549a591f4acb527a.png",
+    "static/media/css.png": "/Portfolio/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/xd.png": "/Portfolio/static/media/xd.9c224a9f684ab8cb6283.png",
+    "static/media/google-drive.png": "/Portfolio/static/media/google-drive.dc5af3573a26c699ae73.png",
+    "static/media/sketch.png": "/Portfolio/static/media/sketch.01e569da637affc2fd41.png",
+    "static/media/figma.png": "/Portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/illustrator.png": "/Portfolio/static/media/illustrator.9259cd89f5045afa2228.png",
+    "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/Portfolio/index.html",
+    "main.12ea1ffd.css.map": "/Portfolio/static/css/main.12ea1ffd.css.map",
+    "main.5d249918.js.map": "/Portfolio/static/js/main.5d249918.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12ea1ffd.css",
+    "static/js/main.5d249918.js"
+  ]
+}
