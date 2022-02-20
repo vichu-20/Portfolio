@@ -47,7 +47,7 @@ function App() {
       <div className='Main'>
         <div style={{backgroundImage:darkmode?`url(${Background})`:`url(${Background2})`
         ,backgroundRepeat:"no-repeat",backgroundSize:"contain",
-       marginRight:20,marginTop:20 ,}}
+       marginRight:20,marginTop:20 ,alignItems:"center",justifyContent:"center"}}
          className='Profile-pic'>
           <img src={Photo}/>
         </div>
