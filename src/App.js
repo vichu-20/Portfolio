@@ -1,6 +1,7 @@
 import './App.css';
 import Moon from './assets/moon.png'
 import Background from './assets/bg-dark.png'
+import Background2 from './assets/bg-light.png'
 import Photo from './assets/photo.png'
 import Gmail from './assets/gmail.png'
 import Telegram from './assets/telegram.png'
@@ -20,28 +21,33 @@ import Xd from './assets/xd.png'
 import Illustrator from './assets/illustrator.png'
 import GitHub from './assets/github.png'
 import Drive from './assets/google-drive.png'
+import { useState } from 'react';
+import Colors from './Component/Component';
 
 
 
 function App() {
+
+  const[darkmode,setDarkmode]=useState(false)
+
   return (
-    <div className="App">
+    <div style={{backgroundColor:darkmode?Colors.lightmode.background:Colors.darkmode.background}} className="App">
       <div className='Top'>
         <span className='Portfolio'>Portfolio</span>
-        <img src={Moon} />
+        <img onClick={()=>setDarkmode(!darkmode)} src={Moon} />
       </div>
       <div className='Header'>
-        <span className='Greeting'>Hey there...</span>
+        <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Greeting'>Hey there...</span>
         <div className='Name'>
-          <span className='Name-1'>it's</span>
+          <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Name-1'>it's</span>
           <span className='Name-2'>Athul Vishnu</span>
         </div>
-        <span className='Position'> Front End Developer & Designer</span>
+        <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Position'> Front End Developer & Designer</span>
       </div>
       <div className='Main'>
-        <div style={{backgroundImage:`url(${Background})`
+        <div style={{backgroundImage:darkmode?`url(${Background})`:`url(${Background2})`
         ,backgroundRepeat:"no-repeat",backgroundSize:"contain",
-        marginLeft:20,marginTop:20 ,}}
+       marginRight:20,marginTop:20 ,}}
          className='Profile-pic'>
           <img src={Photo}/>
         </div>
@@ -55,25 +61,25 @@ function App() {
             <img src={Linkedin}/>
           </div>
           <div className='Knowledge'>
-            <span className='Knowledge-title'>Knowledge in:</span>
+            <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Knowledge-title'>Knowledge in:</span>
             <div className='Icons'>
-            <img src={Html}/>
-            <img src={Css}/>
-            <img src={Js}/>
-            <img src={React}/>
-            <img src={Linux}/>
-            <img src={Git}/>
-            <img src={Sketch}/>
-            <img src={Figma}/>
-            <img src={Xd}/>
-            <img src={Illustrator}/>
+            <a className='Icons-social'><img src={Html}/></a>
+            <a className='Icons-social'><img src={Css}/></a>
+            <a className='Icons-social'><img src={Js}/></a>
+            <a className='Icons-social'><img src={React}/></a>
+            <a className='Icons-social'><img src={Linux}/></a>
+            <a className='Icons-social'><img src={Git}/></a>
+            <a className='Icons-social'><img src={Sketch}/></a>
+            <a className='Icons-social'><img src={Figma}/></a>
+            <a className='Icons-social'><img src={Xd}/></a>
+            <a className='Icons-social'><img src={Illustrator}/></a>
             </div>
           </div>
           <div className='Last-div'>
-            <span className='Lastspan'>Do Check My Works :</span>
+            <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Lastspan'>Do Check My Works :</span>
             <div className='Work-div'>
               <div className='Works'>
-             <a> <img className='Work-icons'  src={GitHub}/></a>
+             <a href=''> <img className='Work-icons'  src={GitHub}/></a>
               </div>
               <div className='Works'>
                 <a><img className='Work-icons' src={Drive}/></a>
