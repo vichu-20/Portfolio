@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.46e7b910.css",
-    "main.js": "/Portfolio/static/js/main.f15e816a.js",
+    "main.css": "/Portfolio/static/css/main.1c5a1691.css",
+    "main.js": "/Portfolio/static/js/main.d0c9897d.js",
+    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.742bddba56a3033e9ef5.png",
+    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.a120004dc82af3f52ffc.png",
     "static/media/photo.png": "/Portfolio/static/media/photo.36663e3481eaf29484e3.png",
-    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.3788165f2c8bf84c637c.png",
     "static/media/background.png": "/Portfolio/static/media/background.ea5aa1c6f631ba411443.png",
-    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.f26453301b9a671b7895.png",
     "static/media/linux.png": "/Portfolio/static/media/linux.3db32b955e9b61f35998.png",
     "static/media/instagram.png": "/Portfolio/static/media/instagram.79535458a8a6d88f81d4.png",
     "static/media/structure.png": "/Portfolio/static/media/structure.4127b36258b5e9dc8f88.png",
@@ -23,11 +23,11 @@
     "static/media/illustrator.png": "/Portfolio/static/media/illustrator.9259cd89f5045afa2228.png",
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Portfolio/index.html",
-    "main.46e7b910.css.map": "/Portfolio/static/css/main.46e7b910.css.map",
-    "main.f15e816a.js.map": "/Portfolio/static/js/main.f15e816a.js.map"
+    "main.1c5a1691.css.map": "/Portfolio/static/css/main.1c5a1691.css.map",
+    "main.d0c9897d.js.map": "/Portfolio/static/js/main.d0c9897d.js.map"
   },
   "entrypoints": [
-    "static/css/main.46e7b910.css",
-    "static/js/main.f15e816a.js"
+    "static/css/main.1c5a1691.css",
+    "static/js/main.d0c9897d.js"
   ]
 }
