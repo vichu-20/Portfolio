@@ -75,7 +75,8 @@ function App() {
             </div>
           </div>
           <div className='Last-div'>
-            <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} className='Lastspan'>Do Check My Works :</span>
+            <span style={{color:darkmode?Colors.lightmode.text:Colors.darkmode.text}} 
+            className='Lastspan'>Do Check My Works :</span>
             <div className='Work-div'>
               <div className='Works'>
              <a href='http://github.com/vichu-20'> <img className='Work-icons'  src={GitHub}/></a>
