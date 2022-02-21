@@ -1,3 +1,250 @@
+.App {
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+
+.Top>img {
+    height: 8vh;
+    width: 8vh;
+    margin-right: 1rem;
+}
+
+.Top>img:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.Portfolio {
+    font-size: 50px;
+    margin-left: 3rem;
+    font-weight: 600;
+    background: #E99BE7;
+    background: -webkit-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+    background: -moz-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+    background: linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 15%;
+    width: 100%;
+}
+
+.Greeting {
+    font-size: 30px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.Name-1 {
+    font-size: 50px;
+    font-weight: 500;
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.Name-2 {
+    font-size: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background: #8F9AFF;
+    background: -webkit-linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
+    background: -moz-linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
+    background: linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Position {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-left: 8rem;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    width: 100%;
+}
+
+.Profile-pic {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 3rem;
+    width: 100%;
+    height: 100%;
+}
+
+.Details {
+    height: 70%;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.Social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+    width: 60%;
+    margin-left: 5rem;
+}
+
+.Icons-Social>img {
+    height: 6vh;
+    width: 6vh;
+}
+
+.Icons-Social>img:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.Knowledge {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.Knowledge-title {
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+.Icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.Icons>img {
+    margin-left: 3rem;
+    height: 8vh;
+    width: 8vh;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.Icons>img:hover,
+.Icons>:active {
+    color: #e5e5e5;
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.Last-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 60%;
+    width: 100%;
+}
+
+.Lastspan {
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-left: 3rem;
+}
+
+.Work-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100;
+    margin-top: 3rem;
+}
+
+.Works {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    height: 90%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, rgb(92, 92, 92), rgb(186, 180, 180));
+}
+
+.Work-icons {
+    height: 8vh;
+    width: 8vh;
+}
+
 @media (max-width:600px) {
     .App {
         height: 100vh;
@@ -186,24 +433,25 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        height: 60%;
+        height: 50%;
         width: 100%;
     }
     .Lastspan {
         font-size: 20px;
         margin-left: 1rem;
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
     .Work-div {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        height: 80%;
+        height: 40%;
         width: 100;
         margin-top: 1rem;
     }
     .Works {
+        margin-bottom: 0;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -214,255 +462,7 @@
         background-image: linear-gradient(90deg, rgb(92, 92, 92), rgb(186, 180, 180));
     }
     .Work-icons {
-        height: 8vh;
-        width: 8vh;
+        height: 5vh;
+        width: 5vh;
     }
-}
-
-.App {
-    height: 100vh;
-    min-height: 100vh;
-    width: 100vw;
-    text-align: center;
-    background-image: url(./assets/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-}
-
-.Top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 10%;
-    width: 100%;
-}
-
-.Top>img {
-    height: 8vh;
-    width: 8vh;
-    margin-right: 1rem;
-}
-
-.Top>img:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
-.Portfolio {
-    font-size: 50px;
-    margin-left: 3rem;
-    font-weight: 600;
-    background: #E99BE7;
-    background: -webkit-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
-    background: -moz-linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
-    background: linear-gradient(to right, #E99BE7 0%, #9182FB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.Header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 15%;
-    width: 100%;
-}
-
-.Greeting {
-    font-size: 30px;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    font-weight: 500;
-}
-
-.Name {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-}
-
-.Name-1 {
-    font-size: 60px;
-    font-weight: 500;
-    font-weight: 700;
-    margin-left: 3rem;
-    margin-top: 2rem;
-}
-
-.Name-2 {
-    font-size: 60px;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    background: #8F9AFF;
-    background: -webkit-linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
-    background: -moz-linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
-    background: linear-gradient(to right, #8F9AFF 18%, #1DD2DF 54%, #FC85D1 85%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.Position {
-    font-size: 25px;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-left: 10rem;
-}
-
-.Main {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    height: 65%;
-    width: 100%;
-}
-
-.Profile-pic {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 3rem;
-    width: 100%;
-    height: 100%;
-}
-
-.Details {
-    height: 40%;
-    width: 100%;
-}
-
-.details {
-    display: flex;
-    flex-direction: row;
-}
-
-.Social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 10%;
-    width: 60%;
-    margin-left: 5rem;
-    margin-top: -3rem;
-}
-
-.Icons-Social>img {
-    height: 6vh;
-    width: 6vh;
-}
-
-.Icons-Social>img:hover {
-    transition: 0.70s;
-    -webkit-transition: 0.70s;
-    -moz-transition: 0.70s;
-    -ms-transition: 0.70s;
-    -o-transition: 0.70s;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
-.Knowledge {
-    display: flex;
-    flex-direction: column;
-    height: 78%;
-    width: 100%;
-    justify-content: flex-start;
-    text-align: left;
-    margin-top: 2rem;
-}
-
-.Knowledge-title {
-    margin-left: 3rem;
-    font-size: 20px;
-}
-
-.Icons {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.Icons>img {
-    margin-left: 3rem;
-    height: 8vh;
-    width: 8vh;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.Icons>img:hover,
-.Icons>:active {
-    color: #e5e5e5;
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    -o-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-.Last-div {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    height: 100%;
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.Lastspan {
-    font-size: 20px;
-    margin-left: 1rem;
-    margin-left: 3rem;
-}
-
-.Work-div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100%;
-    width: 100;
-    margin-top: 5rem;
-}
-
-.Works {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-    height: 100%;
-    width: 20%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-    background-image: linear-gradient(90deg, rgb(92, 92, 92), rgb(186, 180, 180));
-}
-
-.Work-icons {
-    height: 8vh;
-    width: 8vh;
 }
